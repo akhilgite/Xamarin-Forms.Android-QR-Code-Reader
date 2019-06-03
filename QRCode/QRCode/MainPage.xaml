@@ -6,9 +6,7 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Button x:Name="btn_scan" Text="Scan" Clicked="Btn_Scan_Clicked"/>
     </StackLayout>
 
 </ContentPage>
